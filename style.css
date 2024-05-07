@@ -76,3 +76,14 @@ main a{
 .logo-project{
     width: 20em;
 }
+
+iframe{
+    width: 30em;
+    height: 65em;
+}
+
+.frame-computer{
+    width: 87em;
+    height: 59em;
+    margin-left: 1.5em;
+}
