@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #CBE0FF;
+}
+
+nav{
+    background-color: #6A93EA;
+    padding: 1.5em;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    float: right;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    margin: 3em;
+}
+
+a{
+    margin: auto;
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rechts{
+    float: left;
+}
+
+header{
+    background-color: #5782BD;
+    position: relative;
+    padding: 17em;
+}
+
+.headshot{
+    display: inline-block;
+    border-radius: 50%;
+    width: 25em;
+    position: absolute;
+    top: 2em;
+    right: 12em;
+}
+
+.tekst-header{
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 12em;
+    left: 12em;
+}
+
+main a{
+    display: block;
+}
+
+.projecten{
+    display: flex;
+}
+
+.vakje{
+    flex: 33,33%;
+    padding: 5px;
+}
+
+.logo-project{
+    width: 20em;
+}
