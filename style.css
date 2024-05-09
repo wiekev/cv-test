@@ -71,11 +71,14 @@ main a{
 .vakje{
     flex: 33,33%;
     padding: 5px;
+
 }
 
 .logo-project{
     width: 20em;
+    border-radius: 50%;
 }
+
 
 iframe{
     width: 30em;
