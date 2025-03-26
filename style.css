@@ -3,7 +3,6 @@
     margin: 0;
 }
 
-
 :root{
     --achtergrond: #FAE8DE;  
     --headertext: #030B92;
@@ -37,7 +36,7 @@ hr{
 
 
 header{
-    width: 100%;
+    width: 100vw;
     height: 50em;
     position: relative;
 }
@@ -68,7 +67,7 @@ header hr:first-of-type{
     top: 30em;
     border: none;
     height: 1em;
-    width: 100%;
+    width: 100vw;
 }
 
 header hr:nth-of-type(2){
@@ -371,6 +370,7 @@ main section:nth-of-type(3){
     position: relative;
     top: 10em;
     left: 10em;
+    width: 20em;
 }
 
 main section:nth-of-type(3) article:first-of-type{
